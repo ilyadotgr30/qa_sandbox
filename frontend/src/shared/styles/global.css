@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --font-primary: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Menlo, monospace;
+}
+
+html {
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #06070b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(0, 255, 255, 0.12), transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(255, 0, 128, 0.14), transparent 28%),
+    linear-gradient(140deg, #06070b 0%, #0c101c 35%, #06070b 70%),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.04) 0px,
+      rgba(255, 255, 255, 0.04) 1px,
+      transparent 1px,
+      transparent 24px
+    );
+  color: #f7faff;
+  font-family: var(--font-primary);
+  letter-spacing: 0.01em;
+}
+
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(0, 243, 255, 0.35);
+  color: #0b0d12;
+}
+
+code,
+pre,
+.font-mono {
+  font-family: var(--font-mono);
+}

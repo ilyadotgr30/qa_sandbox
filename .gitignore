@@ -1,0 +1,53 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Frontend (Node/Vite)
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Prevent accidental root lockfile (keep frontend/package-lock.json tracked)
+/package-lock.json
+
+# Backend (Python)
+backend/venv/
+backend/.venv/
+**/__pycache__/
+**/*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local DB/data
+backend/db/
+backend/*.db
+backend/*.sqlite*
+backend/sandbox.db
+
+# Logs and runtime artifacts
+logs/
+*.log
+*.pid
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TLS certificates
+certbot/conf/
+certbot/www/

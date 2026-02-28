@@ -1,0 +1,9 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+sqlalchemy>=2.0.25
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+email-validator>=2.1.0
+python-multipart
+passlib[bcrypt]
+pyjwt>=2.8.0
