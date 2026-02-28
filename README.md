@@ -2,6 +2,7 @@
 
 ## 🇷🇺 Русская версия
 
+### Попробуй на [stage.qalab.pantatech.ru](https://stage.qalab.pantatech.ru/)
 ### О проекте
 Этот проект создан как учебная песочница для тестировщиков, чтобы практиковать работу с API в Postman.
 
@@ -59,6 +60,7 @@ docker compose up --build
 
 ## 🇬🇧 English Version
 
+### Try it on [stage.qalab.pantatech.ru](https://stage.qalab.pantatech.ru/)
 ### About
 This repository is a training sandbox for QA engineers to practice API testing with Postman.
 
